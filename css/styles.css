@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy&display=swap');
 
+.navbar {
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-around;
+    height: 5vh;
+}
+
+.branding {
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
     width: 90px;
 }
@@ -8,6 +20,11 @@ header h1 {
     color: #c9c983;
     font-family: 'Satisfy', cursive;
     margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
 }
 
 .nav-pills > li.active > a {
@@ -54,8 +71,20 @@ nav {
     color: #fff;
 }
 
+.content {
+    display: flex;
+    flex: row nowrap;
+}
+
 .featured {
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
 }
 
 .product {
@@ -67,6 +96,10 @@ nav {
 
 .img_box {
     margin: 10px 0;
+}
+
+.img_box > img {
+    height: 34vh;
 }
 
 .product button {
