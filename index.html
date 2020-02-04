@@ -10,72 +10,55 @@
 </head>
 <body>
 	<!-- NAVBAR SECTION -->
-	<header class="navbar">
-		<div class="branding">
-			<img src="img/petstore_logo.png" alt="Pet store logo of a dog." class="pull-left logo">
+	<header class="flex-container navbar">
+		<div class="branding flex-container">
+			<img src="img/petstore_logo.png" alt="" class="logo">
 			<h1>Pet Store</h1>
 		</div>
-		<ul class="nav nav-pills">
-			<li role="presentation" class="active"><a href="index.html">Home</a></li>
-			<li role="presentation"><a href="#">Products</a></li>
-			<li role="presentation"><a href="#">Contact Us</a></li>
-		</ul>
+		<div class="flex-container navlinks">
+			<a href="index.html" class="active">Home</a>
+			<a href="#">Products</a>
+			<a href="#">Contact Us</a>
+		</div>
 	</header>
 	<!-- END OF NAVBAR SECTION -->
 	<!-- JUMBOTRON SECTION -->
-	<div class="jumbotron">
-		<h2 class="text-uppercase text-center">The products they love. Prices you love.</h2>
+	<div class="jumbotron flex-container">
+		<h2 class="text-uppercase">The products they love. Prices you love</h2>
 	</div>
 	<!-- END OF JUMBOTRON SECTION -->
 	<!-- FEATURED/ASIDE SECTION -->
-	<div class="content">
+	<div class="flex-container main-content">
 		<!-- FEATURED SECTION -->
-		<div class="featured">
-			<h2 class="text-uppercase">Featured</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae et consectetur nihil!</p>
-			<div class="products">
-			<div class="product">
-				<div class="img_box"><img src="img/product1.jpg" alt="Dog bowl" class="img-responsive"></div>
-				<h4>Dog Bowl</h4>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, dolorum!</p>
-				<button class="btn btn-xs center-block">Purchase Now</button>
-			</div>
-			<div class="product">
-				<div class="img_box"><img src="img/product2.jpg" alt="A cat toy that looks like a mouse" class="img-responsive"></div>
-				<h4>Cat Toy</h4>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, minima.</p>
-				<button class="btn btn-xs center-block">Purchase Now</button>
-			</div>
-			<div class="product">
-				<div class="img_box"><img src="img/product3.jpg" alt="A parrot toy" class="img-responsive"></div>
-				<h4>Parrot Toy</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, voluptatum.</p>
-				<button class="btn btn-xs center-block">Purchase Now</button>
-			</div>
+		<div class="flex-container featured">
+			<h2 class="text-uppercase">FEATURED</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error tenetur, impedit accusamus odio labore asperiores.</p>
+			<div class="products flex-container">
+				<div class="product flex-container">
+					<img src="img/product1.jpg" alt="Dog bowl" class="img-responsive">
+					<h4>Dog Bowl</h4>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, reiciendis!</p>
+					<button class="btn btn-xs">Purchase Now</button>
+				</div>
+				<div class="product flex-container">
+					<img src="img/product2.jpg" alt="Cat toy" class="img-responsive">
+					<h4>Cat Toy</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, dolores!</p>
+					<button class="btn btn-xs">Purchase Now</button>
+				</div>
+				<div class="product flex-container">
+					<img src="img/product3.jpg" alt="Parrot TOy" class="img-responsive">
+					<h4>Parrot Toy</h4>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, quo?</p>
+					<button class="btn btn-xs">Purchase Now</button>
+				</div>
 			</div>
 		</div>
 		<!-- END OF FEATURED SECTION -->
 		<!-- ASIDE SECTION -->
-		<aside class="aside">
-			<h2 class="text-center text-uppercase">Services</h2>
-			<ul class="nav nav-pills nav-stacked text-center">
-				<li role="presentation">
-					<a href="#">Adopt a Cat</a>
-					<p>lorem8</p>
-				</li>
-				<li role="presentation">
-					<a href="#">Adopt a Dog</a>
-					<p>lorem8</p>
-				</li>
-				<li role="presentation">
-					<a href="#">Adopt a Fish</a>
-					<p>lorem8</p>
-				</li>
-			</ul>
-		</aside>
 		<!-- END OF ASIDE SECTION -->
 	</div>
-	<!-- END OF FEATURED/ASIDE SECTION -->
+	<!-- END FEATURED/ASIde SECTION -->
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
